@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background: url(background.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1024px;
+    height: 100%;
+    margin: auto;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    height: 15%;
+    background-color: aqua;
+    align-items: center;
+}
+
+#content{
+    flex: 1;
+    color: blue;
+    text-align: center;
+    height: 70%;
+    background-color: bisque;
+}
+
+#footer{
+    color: blueviolet;
+    text-align: center;
+    font-size: 10px;
+    height: 15%;
+    background-color: blanchedalmond;
+}
