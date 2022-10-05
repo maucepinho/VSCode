@@ -1,0 +1,19 @@
+#app{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#form, #result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-color: black;
+    padding: 20px;
+    margin: 5px;
+}
+
+.field{
+    padding: 5px;
+}
