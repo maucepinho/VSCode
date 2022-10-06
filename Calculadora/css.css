@@ -1,0 +1,21 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#visor {
+    height: 100px;
+    width: 460px;
+    border: 1px solid;
+    border-color: black;
+}
+
+/* .fieldv{
+    
+} */
+
+.keyboard {
+    display: flex;
+    
+}
