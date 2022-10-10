@@ -1,7 +1,8 @@
 #app {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    
 }
 
 #visor {
