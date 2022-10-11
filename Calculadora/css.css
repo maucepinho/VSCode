@@ -1,22 +1,47 @@
 #app {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 460px;
+    height: 700px;
+    align-content: center;
+    margin: auto;
+    /* justify-content: flex-end; */
     
 }
 
 #visor {
+    display: flex;
     height: 100px;
-    width: 460px;
     border: 1px solid;
     border-color: black;
+    border-radius: 10px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .fieldv{
-    
-} */
+#result {
+    display: flex;
+}
+
+#zero {
+    width: 220px;
+    /* border-radius: 10px; */
+}
+
+.button {
+    font-size: 50px;
+    /* border-radius: 10%; */
+    height: 100px;
+    width: 100px;
+}
+
 
 .keyboard {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 600px;
+    margin-top: 20px;
 }
