@@ -1,12 +1,17 @@
 $(function(){
-    $("input[name=btn]").click( function() {
-        $("#result").val("value");
+    $(".field").click(function() {
+       const resultado = $(this).val();
+       $("#result").val(resultado);
     });
 });
 
 
-
-
+// $("#getValBtnID").click(function () {
+//     var inputString = $("#userInputID").val();
+//     alert(inputString);
+// });
+// $("#setBtnID").click(function () {
+//     $("input:text").val("Hello World!");
 
 // Teste da internet https://www.youtube.com/watch?v=7GviAKxBxsY (https://acervolima.com/projetar-e-implementar-calculadora-usando-jquery/)
         // $(document).ready(function() {
