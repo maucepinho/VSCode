@@ -12,6 +12,7 @@
 #result {
     display: flex;
     height: 100px;
+    width: 460px;
     border: 1px solid;
     border-color: black;
     border-radius: 10px;
