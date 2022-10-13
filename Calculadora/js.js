@@ -1,7 +1,10 @@
-$(function(){
-    $(".field").click(function() {
-       const resultado = $(this).val();
-       $("#result").val(resultado);
+$( function(){
+    $(".button").click(function(){
+        $("#result").html($(this).val());
+        // const valor = $(".button").val();
+        // console.log("Botão apertado");
+        // console.log(valor);
+        // console.log($(".button").val())
     });
 });
 
