@@ -9,9 +9,9 @@
     
 }
 
-#result {
+#result, #expression {
     display: flex;
-    height: 100px;
+    height: 50px;
     width: 460px;
     border: 1px solid;
     border-color: black;
