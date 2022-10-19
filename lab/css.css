@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image:url("./background.jpeg");
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#error-msg {
+    margin-left: 10px;
+    font-size: 10px;
+    color:red;
+}
+
+#cep-label-area {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cep-label {
+    font-size: 40px;
+}
+
+#form-area {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ffffff;
+    border-radius:20px;
+    border: 1px solid;
+    margin-top:10px;
+    padding:20px;
+    border-color:#a1a1a1;
+    overflow-wrap: break-word;
+}
+
+#result, #json {
+    padding:10px;
+    border:1px solid; 
+    border-color:#a5a5a5; 
+    border-radius:5px;
+    margin-top: 10px;
+}
+
+#address, #district, #city, #state, #lat, #lng {
+    width: 350px;
+    margin: 5px;
+}
+
+.label {
+    width: 80px;
+}
+
+.input {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}

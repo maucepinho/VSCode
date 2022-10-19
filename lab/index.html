@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Teste de formulário</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="form-area">
+            <div id="cep-label-area">
+                <div id="cep-label">Consulta CEP</div>
+            </div>
+            <div>
+                <label>CEP:</label>
+                <input id="cep" type="text" />
+                <input id="botao" type="button" value="Enviar" />
+                <label id="error-msg"></label>
+            </div>
+            <div id="result">
+                <div>
+                    <div class="input"><div class="label">Endereço:</div><input id="address" type="text" /></div>
+                    <div class="input"><div class="label">Bairro:</div><input id="district" type="text" /></div>
+                    <div class="input"><div class="label">Cidade:</div><input id="city" type="text" /></div>
+                    <div class="input"><div class="label">Estado:</div><input id="state" type="text" /></div>
+                    <div class="input"><div class="label">Latitude:</div><input id="lat" type="text" /></div>
+                    <div class="input"><div class="label">Longitude:</div><input id="lng" type="text" /></div>
+                </div>
+            </div>
+            <div id="json"></div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="js.js"></script>
+        </div>
+    </body>
+</html>
