@@ -15,7 +15,7 @@ $(function() {
         }).done(function(res){
             const endereco = res.address;
             // $("#resultado").html(JSON.stringify(res));
-            $("#endereco").html(res.endereco);
+            $("#endereco").val(res.endereco);
             console.log(res.address)
         });
     });

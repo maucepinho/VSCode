@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://portaldepinhal.com.br/wp-content/uploads/2022/09/Resultado-AO-VIVO-da-Loteria-Federal-5697-de-hoje-10-09-1000x600.jpg);
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+
+input {
+    width: 50px;
+}
+
+.line {
+    display:flex;
+    flex-direction: row;
+}
+
+.number {
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+    border-radius:3px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: blue;
+}
+
+#sort-area {
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    justify-content: space-between;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#result-area {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: #DEDEDE;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: auto;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+}
